@@ -161,12 +161,12 @@ checkoutBtn.addEventListener("click", function () {
 
 //Verificar a hora e manipular o card horário
 
-function checkrestaurantOpen() {
-    const data = new Date();
-    const hora = data.getHours();
-    return hora >= 18 && hora < 22;
+//function checkrestaurantOpen() {
+    //const data = new Date();
+    //const hora = data.getHours();
+    //return hora >= 18 && hora < 22;
     // true = restaurante está aberto
-}
+//}
 const spanItem = document.getElementById("date-span")
 const isOpen = checkrestaurantOpen();
 
