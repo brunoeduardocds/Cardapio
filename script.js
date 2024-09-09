@@ -138,10 +138,10 @@ checkoutBtn.addEventListener("click", function () {
     
     }
     if (cart.length === 0) return;
-    if (addressInput.value === "") {
-        addressWarn.classList.remove("hidden")
-        addressInput.classList.add("border-red-500")
-        return;
+        if (addressInput.value === "") {
+            addressWarn.classList.remove("hidden")
+             addressInput.classList.add("border-red-500")
+            return;
     }
 
     // Enviar pedido para api Whats
